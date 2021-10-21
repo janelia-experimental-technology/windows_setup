@@ -118,3 +118,17 @@ pacman -S mingw-w64-x86_64-emacs
 git clone https://github.com/peterpolidoro/.dotfiles.git
 ln -s .dotfiles/.emacs.d
 #+END_SRC
+
+** Qemu
+
+*** Install
+
+#+BEGIN_SRC sh
+
+pacman -S mingw-w64-x86_64-qemu
+
+#+END_SRC
+
+* Install Windows Subsystem for Linux
+
+[[https://docs.microsoft.com/en-us/windows/wsl/install]]
